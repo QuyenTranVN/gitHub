@@ -1,0 +1,35 @@
+* git version => to see if you have already installed git.
+- git config -- global user.name ""
+- git config -- global user.email""
+=> to connect local repo and remote repo. 
+- git config --list => to see if it connected. 
+
+1. Git Init 
+* create a local Repo in your own PC. 
+=> git init
+
+* link the local repository to an empty Github repository 
+=> git remote add origin [GitHub-repo-URL]
+
+2. Git clone
+Clone (tải) a remote repo on GitHub to Local PC 
+=> git clone [GitHub_Repo_URL]
+
+* GIT Workflow: 
+Working directory ---- git init ----> initialization ---- git add ---
+---> stagging Area  ----- git commit ----> Local repository ---------
+-- git push ----> git hub
+
+3. Git Add
+*Add changes to Staging Area
+=> git add file
+
+4. Git commit
+*Snapshot the file in preparation for versioning 
+=> git commit -m "descriptive message"
+
+=> git commit --amend -m "amend descriptive message"
+
+5. Git push
+*Uploads all local branch commits to Github
+=> git push origin [branch-name]

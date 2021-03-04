@@ -1,2 +1,5 @@
-header {
-  background: lightblue;
+@import "./variable.scss";
+@import "./header";
+.contact {
+  @include flexCenter(row, blue);
+}
